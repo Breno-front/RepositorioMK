@@ -1,0 +1,263 @@
+
+.cabecalho {
+	width: 100%;
+	height: 100px;
+	background-color: #061699;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+
+	position: fixed;
+	z-index: 100;
+}
+
+.cabecalho-conteudo {
+	width: 990px;
+	margin: 0 auto;
+}
+
+.logomarca {
+	width: 305px;
+	float: left;
+}
+
+.menu-topo {
+	float: right;
+}
+
+.menu-topo ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-topo li {
+	display: inline-block;
+	height: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 0.3s ease-out;
+}
+
+.menu-topo li:hover {
+	background-color: #05106E;
+	cursor: pointer;
+}
+
+.menu-topo a {
+	color: yellow;
+	display: block;
+	margin-top: 50px;
+	text-transform: uppercase;
+}
+
+.menu-topo a:hover {
+	text-decoration: none;
+}
+
+.parallax1 {  
+  background-image: url("img1.jpg");
+  background-color: black;
+  height: 800px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 h1 {
+	padding-top: 200px;
+	color: yellow;
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+	font-family: 'Roboto Slab', serif;
+}
+
+.parallax1 p {
+	padding-top: 50px;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 5px 5px 10px #000;
+}
+
+.informacao1 {
+	height:600px;
+	background-color:#FFF;
+	
+}
+
+
+
+.box {
+	margin-top: 100px;
+	padding-left: 5px;
+	width: 30%;
+	float: left;
+}
+
+.box p{
+	color: black;
+	font-size: 20px;
+	margin-left: 5px;
+	text-align: center;
+	padding-left: 60px;
+}
+	
+
+.box h4{
+	text-align: center;
+	color: #061699;
+	text-transform: uppercase;
+	margin-left: 5px;
+	padding-left: 60px;
+}
+
+.parallax2 {  
+  background-image: url("img2.jpg");
+  background-color: black;
+  height: 800px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 h1 {
+	padding-top: 100px;
+	color: #ffff00;
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+	font-family: 'Roboto Slab', serif;
+}
+
+.parallax2 p {
+	padding-top: 40px;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+	font-size: 1.64rem;
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.informacao2 {
+	height:600px;
+	background-color:#FFF;
+}
+
+.informacao2 h1{
+	font-size: 60px;
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+	color: #061699;
+	text-shadow: 2px 2px 4px #ffff00;
+
+}
+
+.informacao2 p{
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.parallax3 {  
+  background-image: url("img3.jpg");
+  background-color: black;
+  height: 800px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax3 h1 {
+	padding-top: 50px;
+	color: #ffff00;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000;
+	font-family: 'Roboto Slab', serif;
+}
+
+.parallax3 p {
+	padding-top: 20px;
+	color: #FFF;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 5px 5px 10px #000;
+	font-family: "Roboto Mono", monospace;
+}
+
+
+
+
+.botao{
+	border: solid 1px #fff;
+	padding: 10px;
+	background-color: blue;
+	color: #ffffff;
+	margin-right: 10PX;
+}
+
+
+.botao1{
+	border: solid 1px #fff;
+	padding: 10px;
+	background-color: blue;
+	color: #ffffff;
+	margin-right: 10PX;
+}
+
+
+.card{
+	color: yellow;
+	font-weight: 400 !important;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+	text-shadow: 2px 2px 4px #000;
+	background-color: transparent !important;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.card p{
+	color: #fff;
+	font-weight: 300 !important;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 15px;
+
+}
+
+.card button{
+	color: yellow;	
+}
+
+.rodape{
+	width: 100%;
+	height: 100px;
+	background-color: #061699;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+
+	position: fixed;
+	z-index: 99;
+}
+
+
+
+
